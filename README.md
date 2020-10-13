@@ -1,1 +1,1 @@
-# recitation-08-template
+See `recitation-08.md`
