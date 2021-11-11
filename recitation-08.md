@@ -56,7 +56,7 @@ We will implement a data structure with the following operations
   how can the left and right child of any node could be accessed? How
   can we access the parent of an element in the heap? For
   reference,
-  [our text](https://www.diderot.one/courses/43/books/185/part/336/chapter/2696#atom-176452)
+  [our text](https://www.diderot.one/courses/106/books/426/chapter/5760#atom-429661)
   provides some guidance.
 
   Figure 1 shows an example of a binary heap represented by list $[10, 12, 15, 25, 30, 36]$:
