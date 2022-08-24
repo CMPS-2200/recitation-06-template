@@ -1,11 +1,11 @@
-# CMPS 2200 Recitation 05
+# CMPS 2200 Recitation 06
 ## Answers
 
 **Name:**_________________________
 **Name:**_________________________
 
 
-Place all written answers from `recitation-08.md` here for easier grading.
+Place all written answers from `recitation-06.md` here for easier grading.
 
 
 
