@@ -2,8 +2,7 @@
 
 As we've seen, greedy algorithms often have to find the next best decision. In this lab, we'll look at the heap, or priority queue, data structure, which is useful for greedy algorithms. In particular we will implement a binary "min-heap", which allows for efficient insertion and deletion operations.
 
-In class we will discuss *meldable* heaps, but for this lab we will implement *binary heaps* using Python lists. A binary heap is a balanced binary tree that has the *heap property*: the value at any node is less than or equal to its
-children.
+In class we will discuss *meldable* heaps, but for this lab we will implement *binary heaps* using Python lists. A binary heap is a balanced binary tree that has the *heap property*: the value at any node is less than or equal to its children.
 
 We will implement a data structure with the following operations
 

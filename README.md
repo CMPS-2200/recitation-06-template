@@ -1,6 +1,6 @@
 # CMPS 2200  Recitation 06
 
-In this lab, we will implement *binary heaps* using Python lists. A binary heap is a balanced binary tree that has the *heap property*: the value at any node is less than or equal to its
+In this lab, we will implement *binary heaps* using Python lists. A binary heap is a balanced binary tree that has the *heap property*: the value at any node is less than or equal to its children.
 
 To complete this recitation, follow the instructions in [recitation-06.md](recitation-06.md) ([PDF version](recitation-06.pdf)). Below you'll find important and useful information about submitting your work, using git, and testing your code. 
 
