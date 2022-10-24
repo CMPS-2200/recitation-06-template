@@ -84,7 +84,7 @@ Implement these operations in `main.py`. What is the work/span of these two oper
 **5** We can finally implement `deleteMin` and `insert` in `main.py`.
 
 **5a)** For *deleteMin* we remove the root and replace it with the
-  rightmost leaf in the heap. Then we must restore the heap property
+  rightmost leaf on the lowest level in the heap. Then we must restore the heap property
   downward. Implement `deleteMin` and check its correctness.
 
 .  
