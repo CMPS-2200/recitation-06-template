@@ -165,7 +165,7 @@ def test_deleteMin():
     heap.H = [10, 12, 15, 25, 30, 36]
     heap.deleteMin()
     print(heap.H)
-    assert heap.H == [12, 25, 15, 30, 36]
+    assert heap.H == [12, 25, 15, 36, 30]
 
 def test_insert():
     heap = BinaryHeap()
