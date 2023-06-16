@@ -7,7 +7,6 @@ class BinaryHeap:
     def __repr__(self):
         return str(self.H)
 
-    # return the left child of node i
     def lchild(self, i):     
         """
         See test_lchild below.
@@ -23,7 +22,6 @@ class BinaryHeap:
         else:
             return -1
 
-    # return the right child of node i
     def rchild(self, i):
         """
         See test_rchild below.
@@ -39,7 +37,6 @@ class BinaryHeap:
         else:
             return -1
 
-    # return the parent of node i
     def parent(self, i):
         """
         See test_parent below.
@@ -90,7 +87,7 @@ class BinaryHeap:
         c = i
         l = self.lchild(i)
         r = self.rchild(i)
-        while ((self.H[c] > self.H[l]) or (self.H[c] > self.H[r]) and (l > 0)):
+        while (l > 0 and (self.H[c] > self.H[l])) or (r > 0 and (self.H[c] > self.H[r])):
             ## TODO
             pass
         
@@ -159,6 +156,9 @@ def test_reheapDown():
     # the 13 is out of place. We must demote it one level to the left.
     heap.reheapDown(0)  
     assert heap.H == [10, 13, 12, 15, 25, 30, 36]
+    heap.H = [50, 10, 12, 15, 25, 30, 36]
+    heap.reheapDown(0) 
+    assert heap.H == [10, 15, 12, 50, 25, 30, 36]
 
 def test_deleteMin():
     heap = BinaryHeap()
