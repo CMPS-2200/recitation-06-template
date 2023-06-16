@@ -106,7 +106,9 @@ tree and restore the heap property upward. Implement `insert` and check its corr
 **6** Let's now use our heap for something useful. Recall that
   selection sort repeatedly locates the minimum element in order to
   sort. Implement `heapsort` by using a heap to efficiently retrieve
-  minima in a list. To do so, first add all the elements to the list, then repeatedly delete the minimum to construct the sorted list. Test your implementation with `test_heapsort`. What is the work and span of `heapsort`?
+  minima in a list. To do so, first add all the elements to the heap, 
+  then repeatedly delete the minimum to construct the sorted list. 
+  Test your implementation with `test_heapsort`. What is the work and span of `heapsort`?
 
 **enter answer in answers.md**  
 
